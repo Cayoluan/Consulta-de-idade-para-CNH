@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CNH</title>
+
+    <style>
+
+        p{
+         text-align:center;
+         text-shadow: black 0.2em 0.2em 0.2em;
+         font-size:30px;
+         color:white;
+         padding:350px;
+         font-family: Courier New
+        }
+
+        body {
+         font-family: "Roboto Mono", monospace;
+         min-height: 400px;
+         background-image: url("https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80");
+         background-position: center botom;
+         background-repeat: no-repeat;
+         background-size: cover;
+        }
+
+    </style>
+
+
+</head>
+
+<body>
+    
+    <script>
+
+var anoe = "number"
+var anon = "number"
+var nome = "string"
+
+var nome = window.prompt("Informe-nos o seu nome por favor:")
+window.alert(`Olá, ${nome}, vamos ver se você esta apto a tirar carteira?`)
+var anoe = window.prompt("Qual o ano em que estamos")
+var anon = window.prompt("Qual o ano em que você nasceu?")
+var id1= anoe - anon
+
+if (id1 >=18) {
+  document.write(`<p>Parabens!<br>${nome} a sua idade é de ${id1} anos, e você esta apto a tirar carteira.</p>`)
+}
+
+else{
+document.write(`<p>${nome} infelizmente, a sua idade é de ${id1} anos, e para tirar a carteira precisa de 18 anos de idade portanto você não esta apto tirar carteira.</p>`)}
+
+
+    </script>
+
+
+    
+</body>
+
+
+
+</html>
+
